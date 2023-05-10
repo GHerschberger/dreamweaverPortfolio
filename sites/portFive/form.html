@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Green California Initiative | Form</title>
+<!--<link href="style.css" rel="stylesheet" type="text/css"/>-->
+</head>
+
+<body>
+  <form action="mailto:info@green" method="post" name="register" id="register">
+    <p>
+      <label for="firstname">First Name:</label>
+      <input name="firstname" type="text" required="required" id="firstname" >
+    </p>
+    <p>
+      <label for="lastname">Last Name:</label>
+      <input type="text" name="lastname" id="lastname" required="required">
+    </p>
+    <p>
+      <label for="email">Email:</label>
+      <input name="email" type="email" required="required" id="email">
+    </p>
+    <p>
+      <label for="phone">Enter your phone number:</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+    </p>
+    <p>
+    	<label for="address">Street Address:</label>
+        <input type="text" name="address" id="address" required="required">
+    </p>
+    <p>
+      <label for="city">City:</label>
+      <input type="text" name="city" id="city" required="required">
+    </p>
+    <p>
+      <label for="state">State:</label>
+      <input type="text" name="state" id="state" required="required">
+    </p>
+    <p>
+      <label for="zip">Zip:</label>
+      <input type="text" name="zip" id="zip" required="required">
+    </p>
+ <!--     <br>
+ <textarea id="address" rows="3" cols="60" style="width: 486px; height: 89px;"></textarea> -->
+    <p>
+      <label for="source">How did you learn about the Green California Initiative?</label>
+      <select name="source" id="source">
+        <option selected="selected">-Select-</option>
+        <option value="social">Social Media</option>
+        <option value="radio">Radio Ad</option>
+        <option value="email">Email</option>
+        <option value="web">Website Ad</option>
+        <option value="paper">Newspaper</option>
+        <option value="friend">Friend</option>
+      </select>
+    </p>
+    <p>
+      <label for="homeSize">How large is your home?</label>
+      <input name="homeSize" type="text" required="">
+    </p>
+    <p>
+      <label for="income">What is your household income?</label>
+      <input name="income" type="text" required="">
+    </p>
+    <p>
+      <label for="electricBill">What is your average monthly electric bill?</label>
+      <input name="electricBill" type="text" required="">
+    </p>
+    <p>
+      <fieldset>
+        <legend>On a scale of 1-5, how much interest do you have in installing alternative energy?</legend>
+
+        <select name="source" id="source">
+          <option selected="selected">-Select-</option>
+          <option value="one">1</option>
+          <option value="two">2</option>
+          <option value="three">3</option>
+          <option value="four">4</option>
+          <option value="five">5</option>
+        </select>
+
+      </fieldset>
+    </p>
+    <p>
+      <input name="submit" type="submit" class="noClear" id="submit" value="Submit!">
+      <input name="reset" type="reset" class="noClear" id="reset" value="Reset">
+    </p>
+  </form>
+</body>
+</html>

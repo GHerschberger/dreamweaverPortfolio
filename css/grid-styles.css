@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+/*Define grid wrap object here:*/
+.grid-wrap {
+	display: grid;
+	max-width: 1100px;
+	margin: 50px auto 0px auto;
+	grid-template-columns: repeat(6,1fr);
+	grid-template-rows: repeat(9, minmax(20px, auto));
+	grid-auto-rows: minmax(20px, auto);
+	grid-gap: 10px;
+}
+
+
+/*Define individual grid cells here:*/
+.contact{
+	grid-row: 1/2 ;
+	grid-column: 1/7;
+}
+.site_one{
+	grid-row: 2 / 3;
+	grid-column: 1 / 4;
+}
+.site_two{
+	grid-row: 2 / 3;
+	grid-column: 4 / 7;
+}
+.site_three{
+		grid-row: 3 / 4;
+	grid-column: 1 / 4;
+}
+.site_four {
+		grid-row: 3 / 4;
+	grid-column: 4 / 7;
+}
+.site_five {
+		grid-row: 4 / 5;
+	grid-column: 1/4;
+}
+.site_six {
+		grid-row: 4/5;
+	grid-column: 4 / 7;
+
+}
+.site_seven {
+		grid-row: 5/6;
+	grid-column: 1 / 4;
+}
+.site_eight {
+		grid-row: 5/6;
+	grid-column: 4 / 7;
+}
+.site_nine {
+		grid-row: 6/7;
+	grid-column: 1 / 4;
+}
+.site_ten {
+		grid-row: 6/7;
+	grid-column: 4 / 7;
+}
+.site_eleven {
+		grid-row: 7/8;
+	grid-column: 1 / 4;
+}
+.site_twelve {
+	grid-row: 7/8;
+	grid-column: 4 / 7;
+}
+.site_thirteen {
+		grid-row: 8/9;
+	grid-column: 1 / 4;
+}
+.site_fourteen {
+		grid-row: 8/9;
+	grid-column: 4 / 7;
+}
+.footer{
+	grid-row: 9/10;
+  grid-column: 1/7;
+}
+
+
+@media (max-width: 991px){
+	.grid-wrap{
+		max-width: 90%;
+		grid-template-rows: repeat(17, minmax(20px, auto));
+
+	}
+	.contact{
+		grid-row: 1/2;
+		grid-column: 1/7;
+	}
+	.site_one{
+		grid-row: 2/3;
+		grid-column: 1 / 7;
+	}
+	.site_two{
+		grid-row: 3 / 4;
+		grid-column: 1 / 7;
+	}
+	.site_three{
+			grid-row: 4 / 5;
+		grid-column: 1 / 7;
+	}
+	.site_four {
+			grid-row: 5 / 6;
+		grid-column: 1 / 7;
+	}
+	.site_five {
+			grid-row: 6 / 7;
+		grid-column: 1 / 7;
+	}
+	.site_six {
+			grid-row: 7 / 8;
+		grid-column: 1 / 7;
+
+	}
+	.site_seven {
+			grid-row: 8 / 9;
+		grid-column: 1 / 7;
+	}
+	.site_eight {
+			grid-row: 9 / 10;
+		grid-column: 1 / 7;
+	}
+	.site_nine {
+			grid-row: 10 / 11;
+		grid-column: 1 / 7;
+	}
+	.site_ten {
+			grid-row: 11 / 12;
+		grid-column: 1 / 7;
+	}
+	.site_eleven {
+			grid-row: 12 / 13;
+		grid-column: 1 / 7;
+	}
+	.site_twelve {
+		grid-row: 13 / 14;
+		grid-column: 1 / 7;
+	}
+	.site_thirteen {
+			grid-row: 14/15;
+		grid-column: 1 / 7;
+	}
+	.site_fourteen {
+			grid-row: 15/16;
+		grid-column: 1 / 7;
+	}
+	.footer{
+		grid-row: 16/17;
+	  grid-column: 1/7;
+	}
+
+}

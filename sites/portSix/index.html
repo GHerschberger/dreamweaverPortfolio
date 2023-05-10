@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Weight Lifting</title>
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+</head>
+
+<body>
+
+<main>
+	<div id="header">
+  <h1>Weight Lifting</h1>
+	</div>
+  <div id="Tabs1">
+    <ul>
+      <li><a href="#tabs-1">Basics</a></li>
+      <li><a href="#tabs-2">Branches</a></li>
+      <li><a href="#tabs-3">More Information</a></li>
+    </ul>
+    <div id="tabs-1">
+      <h2>What is weightlifting?</h2>
+   	  <p>Weightlifting is the practice of lifting weights regularly with the goal of muscular or strength growth.</p>
+      <img src="images/shoulder_press.jpg" alt="shoulder press" height="200px" width="auto" style="float:left; margin-right: 20px;" />
+		<h2>Where to Start</h2>
+		<p >The best way to start with lifting weight is to go to a gym and try a couple of the different lifts you like.</p>
+		<p style="margin-bottom: 100px;">Over time, after you've become used to different movement patterns, you should start using a program. With a program the days you lift, times you lift and exercises that you complete weekly should stay pretty much the same. </p>
+		
+		
+    </div>
+    <div id="tabs-2">	
+		<img src="images/deadlift.jpg" class="branches_img"  height="400px" width="auto" alt="Weights">
+      		<p>Here are a few of the different weightlifting sports:</p>
+		<ul>
+			<li><a href="https://barbend.com" target="_blank" >Power Lifting</a></li>
+			<li><a href='https://ifbb.com' target="_blank">Body Building</a></li>
+			<li><a href='https://olympics.com/en/sports/weightlifting' target="_blank">Olympic Weightlifting</a>
+				<li><a href="https://www.officialstrongman.com" target="_blank">Strongman</a></li>
+		</ul>
+		<p>Each type focuses on a different goal.</p>
+		<p>Power Lifting focuses exclusively on increasing strength in the three core lifts: Flat barbell bench, high bar back squat, and deadlift.</p>
+		<p>Body Building focuses on increasing the size of the muscles on the body to create the most asthetically pleasing body, in competition a big emphasis in placed on posing.</p>
+		<p>Olympic Weightlifting is similar to powerlifting, the goal is to increase the total amount of weight lifted. However, olympic weightlifters compete in different lifts than powerlifters. They focus on the snatch, and the clean and jerk.</p>
+		<p>Strongman focuses on lifting heavy objects. While strongmen will use weightlifting to train, competition uses strange events. Like, the atlas stones, where competitors carry huge rocks from one place to another.</p>
+    </div>
+    <div id="tabs-3">	
+	   		<p>To get more out of weight training, it is best to do more than just add a workout schedule.</p>
+		<h2>Sleep</h2>
+			<p>For one thing, put a greater emphasis on sleep. Whether that is getting more sleep, or getting higher quality sleep. Sleep is necessary for muscle recovery, muscle growth, and strength increases. Sleep is the body's most anabolic state.</p>
+		<h2>Diet</h2>
+			<p>Diet is important for a few different reasons.</p>
+			<p>Proper nutrition improves in workout performance, and without the proper macro- and micro-nutrient proportions, the body cannot recover, rebuild, and build muscle. </p>
+			<img src="images/empty_rack.jpg" class="branches_img"  height="400px" width="auto" alt="Weights">
+
+		<h2>Hydration</h2>
+		<p>Maintaining optimal hydration throughout the day has many benefits for weightlifters:</p>
+		<ul>
+			<li>Hydration reduces cortisol release in the bloodstream, excessive levels of cortisol can cause muscle loss</li>
+			<li>Because 70% of muscle is made up of water, depleted water levels can muscle loss and prevent muscle growth</li>
+			<li>During a workout, hydration is necessary to lift longer and harder</li>
+		</ul>
+    </div>
+  </div>
+</main>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+</body>
+</html>

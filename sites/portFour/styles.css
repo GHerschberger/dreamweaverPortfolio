@@ -1,0 +1,92 @@
+/* CSS Document */
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #bf1e2d;
+}
+header{
+  background-color: white;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+nav{
+  text-align: center;
+}
+nav p{
+  padding: 2px;
+  display: inline;
+  margin: 12px 0px;
+}
+nav a{
+  text-decoration: none;
+  font-size: 1.5em;
+  color: black;
+  padding-left: 3px;
+  padding-right: 5px;
+  border-inline: solid;
+  border-radius: 10px;
+  margin: 12px 0px;
+}
+nav a:hover{
+  opacity: 50%;
+}
+header img{
+  width: 10%;
+  height: 20%;
+  display: block;
+  margin: 20px auto 10px ;
+}
+div{
+  width: 60%;
+  margin: 0px auto;
+  background-color: #00aeef;
+  padding: 10px 15px 20px;
+}
+.headinfo{
+  text-align: center;
+  margin-top: 0px;
+  color: white;
+}
+img.headinfo{
+  margin: 0px 25%;
+  width: 50%;
+}
+.maintext{
+  text-indent: 2em;
+  font-size: 1.5em;
+  font-family: "Times New Roman", serif;
+  padding: 0px 15px;
+  line-height: 1.5;
+
+}
+footer{
+  text-align: center;
+  margin: 15px auto 10px;
+  color: white;
+}
+h2 {
+  text-align: center;
+  color: white;
+}
+
+
+#inPageNav {
+  border: solid 3px black;
+  border-radius: 4px;
+  box-shadow: 3px 3px grey;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 4px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#inPageNav a{
+  text-decoration: none;
+  color: white;
+  border-inline: solid 1px;
+  border-radius: 15px;
+  padding: 2px;
+  margin: 3px;
+}
